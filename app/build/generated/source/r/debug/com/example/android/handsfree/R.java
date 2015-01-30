@@ -1646,23 +1646,24 @@ containing a value of this type.
         public static final int ic_action_map=0x7f02003c;
         public static final int ic_action_save=0x7f02003d;
         public static final int ic_action_search=0x7f02003e;
-        public static final int ic_contact_picture_180_holo_light=0x7f02003f;
-        public static final int ic_contact_picture_holo_light=0x7f020040;
-        public static final int ic_drawer=0x7f020041;
-        public static final int ic_launcher=0x7f020042;
-        public static final int ic_launcher1=0x7f020043;
-        public static final int icon_144=0x7f020044;
-        public static final int mat2=0x7f020045;
-        public static final int mat3=0x7f020046;
-        public static final int photo=0x7f020047;
-        public static final int photo2=0x7f020048;
-        public static final int quickcontact_badge_small=0x7f020049;
-        public static final int quickcontact_badge_small_pressed=0x7f02004a;
-        public static final int quickcontact_badge_small_unpressed=0x7f02004b;
-        public static final int splash=0x7f02004c;
+        public static final int ic_action_settings=0x7f02003f;
+        public static final int ic_contact_picture_180_holo_light=0x7f020040;
+        public static final int ic_contact_picture_holo_light=0x7f020041;
+        public static final int ic_drawer=0x7f020042;
+        public static final int ic_launcher=0x7f020043;
+        public static final int ic_launcher1=0x7f020044;
+        public static final int icon_144=0x7f020045;
+        public static final int mat2=0x7f020046;
+        public static final int mat3=0x7f020047;
+        public static final int photo=0x7f020048;
+        public static final int photo2=0x7f020049;
+        public static final int quickcontact_badge_small=0x7f02004a;
+        public static final int quickcontact_badge_small_pressed=0x7f02004b;
+        public static final int quickcontact_badge_small_unpressed=0x7f02004c;
+        public static final int splash=0x7f02004d;
     }
     public static final class id {
-        public static final int Switch=0x7f0a006d;
+        public static final int Switch=0x7f0a006a;
         public static final int action_bar=0x7f0a0036;
         public static final int action_bar_activity_content=0x7f0a0000;
         public static final int action_bar_container=0x7f0a0035;
@@ -1670,7 +1671,6 @@ containing a value of this type.
         public static final int action_bar_spinner=0x7f0a0001;
         public static final int action_bar_subtitle=0x7f0a0024;
         public static final int action_bar_title=0x7f0a0023;
-        public static final int action_blacklist=0x7f0a006b;
         public static final int action_context_bar=0x7f0a0037;
         public static final int action_menu_divider=0x7f0a0002;
         public static final int action_menu_presenter=0x7f0a0003;
@@ -1678,8 +1678,6 @@ containing a value of this type.
         public static final int action_mode_bar_stub=0x7f0a0032;
         public static final int action_mode_close_button=0x7f0a0025;
         public static final int action_settings=0x7f0a0069;
-        public static final int action_sync=0x7f0a006a;
-        public static final int action_synceddata=0x7f0a006c;
         public static final int activity_chooser_view_content=0x7f0a0026;
         public static final int add=0x7f0a0063;
         public static final int always=0x7f0a0017;

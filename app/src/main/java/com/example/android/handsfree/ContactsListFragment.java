@@ -312,9 +312,6 @@ public class ContactsListFragment extends ListFragment implements
         //removing unnecessary action bar items
         if(menu!=null){
             menu.removeItem(R.id.Switch);
-            menu.removeItem(R.id.action_synceddata);
-            menu.removeItem(R.id.action_blacklist);
-            menu.removeItem(R.id.action_sync);
             menu.removeItem(R.id.action_settings);
         }
         // Inflate the menu items

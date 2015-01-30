@@ -231,48 +231,21 @@ public class MainPage extends ActionBarActivity implements NavigationDrawerFragm
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
         DBHandler mHandler = new DBHandler(getApplicationContext());
         SQLiteDatabase db = mHandler.getWritableDatabase();
         //noinspection SimplifiableIfStatement
         switch (item.getItemId()) {
-            case R.id.home:
+
+            case R.id.home:// the back arrow
                 Log.i("mp home","called");
                 break;
+
             case R.id.action_settings: // the settings option
                 Intent intent = new Intent(MainPage.this, Settings.class);
                 startActivity(intent);
-
-
                 break;
 
-
-            case R.id.action_sync:
-
-                Cursor mCursor = getContacts();
-                startManagingCursor(mCursor);
-                mCursor.moveToFirst();
-                do {
-                    String name = mCursor.getString(mCursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME));
-                    String number = mCursor.getString(mCursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER));
-                    mHandler.SaveTable(DBReader.DBEntry.TABLE_NAME, name, number);
-                } while (mCursor.moveToNext());
-                break;
-            case R.id.action_blacklist:
-                mHandler.deleteAll(DBReader.DBEntry.BLACKLIST_TABLE);
-
-                FragmentManager fragmentManager = getSupportFragmentManager();
-                FragmentTransaction ft = fragmentManager.beginTransaction();
-                ft.replace(R.id.container, new Blacklist_main()).addToBackStack(null).commit();
-                break;
-            case R.id.action_synceddata:
-                mHandler.deleteAll(DBReader.DBEntry.TABLE_NAME);
-                FragmentManager fragmentManager1 = getSupportFragmentManager();
-                FragmentTransaction ft1 = fragmentManager1.beginTransaction();
-                ft1.replace(R.id.container, new Blacklist_main()).addToBackStack(null).commit();
-                break;
-
-            case R.id.Switch:
+            case R.id.Switch: // the toggle switch
                if(BackgroundService.startApp)
                    BackgroundService.startApp=false;
                else
