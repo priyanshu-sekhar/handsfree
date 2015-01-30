@@ -1,0 +1,5 @@
+D:\AndoidProjects\Android-ViewPagerIndicator-master\Extra\Hands Free\app\build\intermediates\classes\debug
+D:\AndoidProjects\Android-ViewPagerIndicator-master\Extra\Hands Free\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-dc8a221f02e7cbe00e49f99d71d0818393b457e8.jar
+D:\AndoidProjects\Android-ViewPagerIndicator-master\Extra\Hands Free\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-8990e03143cfec178d579dda460b0ed5d9fadae2.jar
+D:\AndoidProjects\Android-ViewPagerIndicator-master\Extra\Hands Free\app\build\intermediates\pre-dexed\debug\classes-5a0fee4c3a324e3f3fd82062c943660ba561dbf5.jar
+D:\AndoidProjects\Android-ViewPagerIndicator-master\Extra\Hands Free\app\build\intermediates\pre-dexed\debug\classes-fd600870c17df61eba00af33d316d415c61844a0.jar

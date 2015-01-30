@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="D:\AndoidProjects\Android-ViewPagerIndicator-master\Hands Free\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-dc8a221f02e7cbe00e49f99d71d0818393b457e8.jar" />
+    </item>
+    <item
+        jar="D:\AndoidProjects\Android-ViewPagerIndicator-master\Hands Free\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\AndoidProjects\Android-ViewPagerIndicator-master\Hands Free\app\build\intermediates\pre-dexed\debug\classes-1e75ca473c4a6d3c93bc3e050c3bd0f8ff71488a.jar" />
+    </item>
+    <item
+        jar="D:\AndoidProjects\Android-ViewPagerIndicator-master\Extra\Hands Free\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\AndoidProjects\Android-ViewPagerIndicator-master\Extra\Hands Free\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-8990e03143cfec178d579dda460b0ed5d9fadae2.jar" />
+    </item>
+    <item
+        jar="D:\AndoidProjects\Android-ViewPagerIndicator-master\Extra\Hands Free\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\AndoidProjects\Android-ViewPagerIndicator-master\Extra\Hands Free\app\build\intermediates\pre-dexed\debug\classes-fd600870c17df61eba00af33d316d415c61844a0.jar" />
+    </item>
+    <item
+        jar="D:\AndoidProjects\Android-ViewPagerIndicator-master\Hands Free\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\AndoidProjects\Android-ViewPagerIndicator-master\Hands Free\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-5692beeeb59d7346a187351a4a136efb03d08f75.jar" />
+    </item>
+    <item
+        jar="D:\AndoidProjects\Android-ViewPagerIndicator-master\Hands Free\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\AndoidProjects\Android-ViewPagerIndicator-master\Hands Free\app\build\intermediates\pre-dexed\debug\classes-90ce5ef8791ddc0b854a4097bc238fb8dae7d445.jar" />
+    </item>
+    <item
+        jar="D:\AndoidProjects\Android-ViewPagerIndicator-master\Extra\Hands Free\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\AndoidProjects\Android-ViewPagerIndicator-master\Extra\Hands Free\app\build\intermediates\pre-dexed\debug\classes-5a0fee4c3a324e3f3fd82062c943660ba561dbf5.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash" >
+
+    <!--
+         The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc.
+    -->
+
+    <RelativeLayout
+        android:id="@+id/fullscreen_content_controls"
+        style="?buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/splash"
+        tools:ignore="UselessParent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#666362"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:text="Go"
+            android:fontFamily="sans-serif-thin"
+            android:layout_marginTop="132dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/textView3"
+            android:layout_toStartOf="@+id/textView3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hands"
+            android:fontFamily="sans-serif-thin"
+            android:textColor="#666362"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:id="@+id/textView3"
+            android:layout_marginRight="38dp"
+            android:layout_marginEnd="38dp"
+            android:layout_below="@+id/textView1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Free"
+            android:fontFamily="sans-serif-thin"
+            android:id="@+id/textView4"
+            android:textColor="#666362"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView3"
+            android:layout_alignRight="@+id/textView3"
+            android:layout_alignEnd="@+id/textView3" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout><!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/layout/activity_splash.xml -->
