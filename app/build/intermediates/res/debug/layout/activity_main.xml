@@ -28,4 +28,4 @@ android:id="@+id/indicator"
 android:layout_width="fill_parent"
 android:layout_height="wrap_content"
 android:padding="10dip" />-->
-<!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/layout/activity_main.xml -->
+<!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/layout/activity_main.xml -->

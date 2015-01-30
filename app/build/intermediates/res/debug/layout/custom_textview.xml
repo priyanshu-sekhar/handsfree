@@ -13,4 +13,4 @@
     android:paddingTop="10dp"
     android:textAppearance="?android:attr/textAppearanceListItem" />
 
-    <!--android:layout_marginStart="?android:attr/listPreferredItemPaddingStart"--><!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/layout/custom_textview.xml -->
+    <!--android:layout_marginStart="?android:attr/listPreferredItemPaddingStart"--><!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/layout/custom_textview.xml -->

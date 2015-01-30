@@ -12,4 +12,4 @@
         android:text="My Custom Drawer Header"
         android:id="@+id/textView2"
         android:layout_gravity="center_horizontal" />
-</LinearLayout><!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/layout/custom_drawer.xml -->
+</LinearLayout><!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/layout/custom_drawer.xml -->

@@ -3,4 +3,4 @@
     android:id="@android:id/text1"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:clickable="true"/><!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/layout/contacts_list_view.xml -->
+    android:clickable="true"/><!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/layout/contacts_list_view.xml -->

@@ -107,6 +107,10 @@
             android:name="com.example.android.handsfree.CallActionListener"
             android:label="@string/title_call_action" >
         </activity>
+        <activity
+            android:name="com.example.android.handsfree.Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
     </application>
 
 </manifest>

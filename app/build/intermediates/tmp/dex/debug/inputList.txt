@@ -1,5 +1,5 @@
-D:\AndoidProjects\Android-ViewPagerIndicator-master\Extra\Hands Free\app\build\intermediates\classes\debug
-D:\AndoidProjects\Android-ViewPagerIndicator-master\Extra\Hands Free\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-dc8a221f02e7cbe00e49f99d71d0818393b457e8.jar
-D:\AndoidProjects\Android-ViewPagerIndicator-master\Extra\Hands Free\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-8990e03143cfec178d579dda460b0ed5d9fadae2.jar
-D:\AndoidProjects\Android-ViewPagerIndicator-master\Extra\Hands Free\app\build\intermediates\pre-dexed\debug\classes-5a0fee4c3a324e3f3fd82062c943660ba561dbf5.jar
-D:\AndoidProjects\Android-ViewPagerIndicator-master\Extra\Hands Free\app\build\intermediates\pre-dexed\debug\classes-fd600870c17df61eba00af33d316d415c61844a0.jar
+F:\Github\handsfree\handsfree\app\build\intermediates\classes\debug
+F:\Github\handsfree\handsfree\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-bacf865b8b0a1e26c31078890cd23349f29ae060.jar
+F:\Github\handsfree\handsfree\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-fa151341332152f5a4f8f5157b20cc25b748b029.jar
+F:\Github\handsfree\handsfree\app\build\intermediates\pre-dexed\debug\classes-2df4e7a7dd1cb42b874e871305ef17fb6951ad54.jar
+F:\Github\handsfree\handsfree\app\build\intermediates\pre-dexed\debug\classes-b53870b01dc1861d9108c959aa1234e481e27822.jar

@@ -22,4 +22,4 @@
             android:label="@string/app_name"
             android:inputType="textPersonName"
             android:hint="Enter the name to search"/>
-<!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/xml/searchable_contacts.xml -->
+<!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/xml/searchable_contacts.xml -->

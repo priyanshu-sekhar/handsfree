@@ -26,10 +26,9 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
     <uses-permission android:name="android.permission.ACTION_HEADSET_PLUG" />
-    <!-- Permissions for call block-->
+    <!-- Permissions for call block -->
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
-
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="18" />
@@ -40,15 +39,12 @@
     <application
         android:icon="@drawable/icon_144"
         android:label="Hands Free"
-        android:theme="@style/Theme.AppCompat.Light">
-
-
+        android:theme="@style/Theme.AppCompat.Light" >
         <activity
             android:name=".LaunchTutorial"
             android:label="Launch Tutorial"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
         </activity>
-
         <activity
             android:name=".Splash"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -60,29 +56,30 @@
             </intent-filter>
         </activity>
 
-        <!--<receiver android:name=".MusicIntentReceiver" >-->
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.HEADSET_PLUG" />-->
+        <!-- <receiver android:name=".MusicIntentReceiver" > -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.HEADSET_PLUG" /> -->
 
-            <!--</intent-filter>-->
-        <!--</receiver>-->
+
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
         <service
             android:name=".BackgroundService"
-            android:exported="false"/>
+            android:exported="false" />
 
         <activity
             android:name=".MainPage"
             android:label="Hands Free"
-            android:theme="@style/Theme.AnApp.Logo"
-            android:launchMode="singleTop">
-
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.AnApp.Logo" >
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH" />
             </intent-filter>
-            <meta-data android:name="android.app.searchable"
+
+            <meta-data
+                android:name="android.app.searchable"
                 android:resource="@xml/searchable_contacts" />
         </activity>
-
         <activity
             android:name=".SpeechListener"
             android:label="Speech Listener" >
@@ -95,20 +92,23 @@
         </receiver>
         <receiver
             android:name=".HeadphoneListener"
-            android:exported="true"
-            android:enabled="true">
+            android:enabled="true"
+            android:exported="true" >
             <uses-permission android:name="android.permission.ACTION_HEADSET_PLUG" />
+
             <intent-filter>
-               <action android:name="android.intent.action.HEADSET_PLUG" />
+                <action android:name="android.intent.action.HEADSET_PLUG" />
             </intent-filter>
         </receiver>
+
         <activity
             android:name=".CallActionListener"
             android:label="@string/title_call_action" >
         </activity>
-
-
-
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
     </application>
 
 </manifest>

@@ -1,30 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/values/vpi_attrs.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/settings_arrays.xml -->
+    <eat-comment/>
+    <string-array name="filter">
+        <item name="1">BlackList</item>
+        <item name="2">WhiteList</item>
+    </string-array>
+    <string-array name="filterValues">
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/vpi_attrs.xml -->
     <eat-comment/>
     <attr format="boolean" name="centered"/>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/values/vpi_attrs.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/vpi_attrs.xml -->
     <eat-comment/>
     <attr format="string" name="fontPath"/>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/values/vpi_attrs.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/vpi_attrs.xml -->
     <eat-comment/>
     <attr format="string" name="materialFontPath"/>
     <attr format="color" name="selectedColor"/>
     <attr format="dimension" name="strokeWidth"/>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <attr format="string" name="title"/>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/values/vpi_attrs.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/vpi_attrs.xml -->
     <eat-comment/>
     <attr format="color" name="unselectedColor"/>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <bool name="abc_action_bar_embed_tabs">true</bool>
     <bool name="abc_action_bar_embed_tabs_pre_jb">false</bool>
@@ -32,14 +42,14 @@
     <bool name="abc_config_actionMenuItemAllCaps">true</bool>
     <bool name="abc_config_allowActionMenuItemTextWithIcon">false</bool>
     <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/values/vpi_defaults.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/vpi_defaults.xml -->
     <eat-comment/>
     <bool name="default_circle_indicator_centered">true</bool>
     <bool name="default_circle_indicator_snap">false</bool>
     <bool name="default_line_indicator_centered">true</bool>
     <bool name="default_title_indicator_selected_bold">true</bool>
     <bool name="default_underline_indicator_fades">true</bool>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="abc_input_method_navigation_guard">@android:color/black</color>
     <color name="abc_search_url_text_normal">#7fa87f</color>
@@ -59,7 +69,7 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/values/vpi_defaults.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/vpi_defaults.xml -->
     <eat-comment/>
     <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
     <color name="default_circle_indicator_page_color">#00000000</color>
@@ -70,7 +80,7 @@
     <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
     <color name="default_title_indicator_text_color">#BBFFFFFF</color>
     <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
@@ -103,7 +113,7 @@
     <color name="secondary_text_disabled_material_light">#24000000</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/values/vpi_colors.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/vpi_colors.xml -->
     <eat-comment/>
     <color name="vpi__background_holo_dark">#ff000000</color>
     <color name="vpi__background_holo_light">#fff3f3f3</color>
@@ -142,7 +152,7 @@
     <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/></declare-styleable>
     <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
     <dimen name="abc_action_bar_default_padding_material">4dp</dimen>
@@ -181,11 +191,11 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/values/vpi_defaults.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/vpi_defaults.xml -->
     <eat-comment/>
     <dimen name="default_circle_indicator_radius">3dp</dimen>
     <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
@@ -200,7 +210,7 @@
     <dimen name="default_title_indicator_text_size">15dp</dimen>
     <dimen name="default_title_indicator_title_padding">5dp</dimen>
     <dimen name="default_title_indicator_top_padding">7dp</dimen>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
@@ -208,53 +218,53 @@
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="photoMarginTop">16dp</dimen>
     <dimen name="statusMargin">0dp</dimen>
     <dimen name="traslucentPhotoMarginTop">41dp</dimen>
     <dimen name="traslucentStatusMargin">25dp</dimen>
     <dimen name="userSpace">189dp</dimen>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/values/ids.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/ids.xml -->
     <eat-comment/>
     <item name="calligraphy_tag_id" type="id"/>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <item name="home" type="id"/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
     <item name="split_action_bar" type="id"/>
     <item name="up" type="id"/>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/values/integers.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/integers.xml -->
     <eat-comment/>
     <integer name="DRAWERTYPE_ACCOUNTS">0</integer>
     <integer name="DRAWERTYPE_CUSTOM">2</integer>
     <integer name="DRAWERTYPE_IMAGE">1</integer>
     <integer name="DRAWERTYPE_NO_HEADER">3</integer>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <integer name="abc_max_action_buttons">2</integer>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/values/values.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/values.xml -->
     <eat-comment/>
     <integer name="av_animationDuration">340</integer>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/values/vpi_defaults.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/vpi_defaults.xml -->
     <eat-comment/>
     <integer name="default_circle_indicator_orientation">0</integer>
     <integer name="default_title_indicator_footer_indicator_style">2</integer>
     <integer name="default_title_indicator_line_position">0</integer>
     <integer name="default_underline_indicator_fade_delay">300</integer>
     <integer name="default_underline_indicator_fade_length">400</integer>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/values/values.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/values.xml -->
     <eat-comment/>
     <integer name="rcv_animationDurationHide">420</integer>
     <integer name="rcv_animationDurationReveal">420</integer>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
@@ -272,7 +282,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_blacklist">Clear BlackList</string>
     <string name="action_example"/>
@@ -292,15 +302,17 @@
     <string name="menu_search">Search</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="speech_message">Say YES to receive or NO to reject</string>
     <string name="title_activity_main">Hands Free</string>
+    <string name="title_activity_settings">Settings</string>
     <string name="title_call_action">Call Action</string>
     <string name="title_section1">Blacklist</string>
     <string name="title_section2">Whitelist</string>
     <string name="title_section3">Pure Silence</string>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="@android:style/Theme"/>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance">
         <item name="android:textColor">?android:textColorPrimary</item>
@@ -1054,7 +1066,7 @@
         <item name="android:scaleType">center</item>
         <item name="android:background">?attr/selectableItemBackground</item>
     </style>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/values/vpi_styles.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/vpi_styles.xml -->
     <eat-comment/>
     <style name="ButtonBar">
         <item name="android:paddingLeft">2dp</item>
@@ -1064,14 +1076,14 @@
         <item name="android:background">@android:drawable/bottom_bar</item>
     </style>
     <style name="ButtonBarButton"/>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="ContactListView">
         <item name="android:verticalScrollbarPosition">right</item>
         <item name="android:fastScrollAlwaysVisible">true</item>
         <item name="android:scrollbarStyle">outsideInset</item>
     </style>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/values/vpi_styles.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/vpi_styles.xml -->
     <eat-comment/>
     <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
         <item name="android:windowContentOverlay">@null</item>
@@ -1079,7 +1091,7 @@
         <item name="buttonBarStyle">@style/ButtonBar</item>
         <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
     </style>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/values/themes.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/themes.xml -->
     <eat-comment/>
     <style name="MaterialNavigationDrawerTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="drawerType">@integer/DRAWERTYPE_ACCOUNTS</item>
@@ -1098,7 +1110,7 @@
     <style name="MaterialNavigationDrawerTheme.Light.DarkActionBar.TranslucentKitKatStatusBar" parent="MaterialNavigationDrawerTheme.Light.DarkActionBar"/>
     <style name="MaterialNavigationDrawerTheme.Light.TranslucentKitKatStatusBar" parent="MaterialNavigationDrawerTheme.Light"/>
     <style name="MaterialNavigationDrawerTheme.TranslucentKitKatStatusBar" parent="MaterialNavigationDrawerTheme"/>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
@@ -1310,7 +1322,7 @@
     <style name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item"/>
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle"/>
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Title" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Title"/>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/values/themes.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/themes.xml -->
     <eat-comment/>
     <style name="Theme.AnApp" parent="Theme.AppCompat">
         <item name="android:actionBarStyle">@style/Widget.ActionBar</item>
@@ -1320,7 +1332,7 @@
         <item name="android:actionBarStyle">@style/Widget.ActionBar.ActionBarLogo</item>
         <!-- ... -->
     </style>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Theme.AppCompat" parent="Base.Theme.AppCompat"/>
     <style name="Theme.AppCompat.CompactMenu" parent="Base.Theme.AppCompat.CompactMenu"/>
@@ -1338,20 +1350,20 @@
         <item name="windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
     </style>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/values/vpi_styles.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/vpi_styles.xml -->
     <eat-comment/>
     <style name="Theme.PageIndicatorDefaults" parent="android:Theme">
         <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
        <!-- <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>-->
     </style>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>
     <style name="ThemeOverlay.AppCompat.Dark.ActionBar" parent="Base.ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Light" parent="Base.ThemeOverlay.AppCompat.Light"/>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/values/vpi_styles.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/vpi_styles.xml -->
     <eat-comment/>
     <style name="Widget">
     </style>
@@ -1362,7 +1374,7 @@
         <item name="android:logo">@drawable/ic_launcher1</item>
         <item name="android:displayOptions">useLogo|showHome</item>
     </style>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Widget.AppCompat.ActionBar" parent="Base.Widget.AppCompat.ActionBar"/>
     <style name="Widget.AppCompat.ActionBar.Solid" parent="Base.Widget.AppCompat.ActionBar.Solid"/>
@@ -1417,13 +1429,13 @@
     <style name="Widget.AppCompat.Spinner.DropDown.ActionBar" parent="Base.Widget.AppCompat.Spinner.DropDown.ActionBar"/>
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation"/>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/values/vpi_styles.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/vpi_styles.xml -->
     <eat-comment/>
     <style name="Widget.IconPageIndicator" parent="Widget">
         <item name="android:layout_marginLeft">6dp</item>
         <item name="android:layout_marginRight">6dp</item>
     </style>
-    <!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="addressButton"/>
     <style name="addressDetail" parent="@android:style/TextAppearance.Medium">

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <ListPreference
+        android:key="pref_BlackOrWhite"
+        android:title="Pick a list to filter calls"
+        android:dialogTitle="Pick a list to filter calls"
+        android:entries="@array/filter"
+        android:summary="BlackList"
+        android:icon="@drawable/ic_action_call"
+        android:entryValues="@array/filterValues"
+        android:defaultValue="1"
+        />
+
+    <EditTextPreference
+        android:key="pref_Speech"
+        android:title="Custom Speech"
+        android:icon="@drawable/ic_action_edit"
+        android:defaultValue="@string/speech_message"/>
+
+    <com.example.android.handsfree.VolumeDialogPreference
+        android:key="pref_Volume"
+        android:title="Volume"
+        android:icon="@drawable/ic_action_headphones"
+        android:summary="Choose level of volume of speech"
+        android:positiveButtonText="OK"
+        android:negativeButtonText="Cancel"
+        />
+</PreferenceScreen>
+<!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/layout/settings.xml -->

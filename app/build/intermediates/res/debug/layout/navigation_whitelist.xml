@@ -9,4 +9,4 @@
     <TextView android:id="@+id/section_label" android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-</RelativeLayout><!-- From: file:/D:/AndoidProjects/HandsFree/app/src/main/res/layout/navigation_whitelist.xml -->
+</RelativeLayout><!-- From: file:/F:/Github/handsfree/handsfree/app/src/main/res/layout/navigation_whitelist.xml -->

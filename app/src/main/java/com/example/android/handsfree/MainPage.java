@@ -239,9 +239,10 @@ public class MainPage extends ActionBarActivity implements NavigationDrawerFragm
             case R.id.home:
                 Log.i("mp home","called");
                 break;
-            case R.id.action_settings:
-                Log.i("settings", new String("settngs"));
-                Toast.makeText(getApplicationContext(), "run", Toast.LENGTH_LONG).show();
+            case R.id.action_settings: // the settings option
+                Intent intent = new Intent(MainPage.this, Settings.class);
+                startActivity(intent);
+
 
                 break;
 
